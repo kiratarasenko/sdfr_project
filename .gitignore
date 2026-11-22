@@ -1,0 +1,12 @@
+build/
+sdfr
+*.o
+*.d
+*.ppm
+*.bmp
+*.png
+!docs/img/*.png
+*.csv
+frames/
+*.mp4
+*:Zone.Identifier
