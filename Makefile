@@ -2,6 +2,7 @@ CC      ?= gcc
 CFLAGS  ?= -O2 -march=native
 CFLAGS  += -std=c11 -D_DEFAULT_SOURCE -Wall -Wextra -Wpedantic -Isrc -MMD -MP
 LDLIBS  := -lm
+LDFLAGS += -Wl,--wrap=malloc -Wl,--wrap=calloc -Wl,--wrap=realloc
 
 TARGET  := sdfr
 BUILD   := build
