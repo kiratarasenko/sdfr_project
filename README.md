@@ -11,7 +11,7 @@
 ```sh
 sudo apt install -y build-essential
 make
-./sdfr
+./sdfr test.ppm
 ```
 
-- `./sdfr` — контрольная сумма тестового кадра и `cross(X, Y) = (0.0, 0.0, 1.0)`.
+- `./sdfr test.ppm` — тестовый кадр 640x360 в `test.ppm`.
